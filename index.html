@@ -10,57 +10,66 @@
 <body>
     
     <header class="main-header">
-        <div class="container">
-            <h1>
-                <a href="#" class="logo">
-                    <img src="img/stavedLogo.png" alt="Staved Logo">
-                </a>
-            </h1>
-            <nav role="navigation">
-                <ul>
-                    <li><a href="index.html" class="homeLink">Home</a></li>
-                    <li><a href="#">Whisk(e)y Overview</a></li>
-                    <li><a href="#">Quiz</a></li>
-                </ul>
-            </nav>
+        <div class="nav-container">
+            <h1><a href="#" class="logo"><img src="img/stavedLogo.png" alt="Staved Logo"></a></h1>
+                <nav role="navigation">
+                    <ul class="nav-flex-list">
+                        <li class="nav-flex-item"><a href="index.html" class="homeLink">Home</a></li>
+                        <li class="nav-flex-item"><a href="#">Whisk(e)y Overview</a></li>
+                        <li class="nav-flex-item"><a href="#">Quiz</a></li>
+                    </ul>
+                </nav>
         </div>
     </header>
 
     <div class="banner">
-        <h1 class="introText">What you need to know about Whisk(e)y</h1>
+        <h1 class="introText">What you need to know about Whisk<span class="letterLink">(e)</span>y</h1>
     </div>
     
-    <main class="mainContent" role="main">
-        <div class="first column">
-            <h2>North American Styles</h2>
-            <ul>
-                <li>Rye</li>
-                    <p></p>
-                <li>Bourbon</li>
-                    <p></p>
-                <li>Tennessee Whiskey</li>
-                    <p></p>
-                <li>Canadian</li>
-                    <p></p>
-            </ul>
-        </div>
+    <main class="main-content" role="main">
 
-        <div class="second column">
-            <h2>European Styles</h2>
-            <ul>
-                <li>Scotch</li>
-                    <p></p>
-                <li>Irish</li>
-                    <p></p>
-            </ul>
+        <ul class="whiskeys">
+            <li class="flex">North American Styles
+                <h2>Rye</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, nec ei audiam phaedrum. Vis et choro vivendum. Duo ad quis graeco, unum error dissentiet sed eu, ad vel deleniti detraxit quaerendum. Pri dico saperet ornatus in, et veniam dolorum dolores pri.
+                    </p>
+                <h2>Bourbon</h2>
+                    <p>
+                        At has hinc explicari, at his nisl maiestatis efficiendi. Ad prima veniam definitionem eos, labores intellegat percipitur nec in. Liber eloquentiam cu pri. Vel vocent officiis definitiones in. Meliore veritus adipiscing his te, eum erat altera atomorum cu. Sumo minimum sed et.
+                    </p>
+                <h2>Tennessee Whiskey</h2>
+                    <p>
+                        Atomorum patrioque nec ut, ei augue similique nam. Ex pro quis habeo definitiones, ne accumsan concludaturque sed, eu quas delicata nam. Vivendum constituto dissentiunt sit no. Recteque imperdiet cu mel, ex assum essent antiopam sit. Ridens cetero suavitate te sea. Quem constituto an per, appareat invidunt honestatis et per.
+                    </p>
+                <h2>Canadian</h2>
+                    <p>
+                        No usu dicunt cetero, ne suscipit facilisi liberavisse vis. Altera regione philosophia per et, unum docendi cu qui. Quo cetero accusam rationibus eu, id eos eius quidam, ad usu intellegat efficiantur. Everti pertinacia et duo. Meis summo legere ex ius.
+                    </p>
+            </li>
 
-        </div>
+            <li class="flex">European Styles
+                <h2>Scotch</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, nec ei audiam phaedrum. Vis et choro vivendum. Duo ad quis graeco, unum error dissentiet sed eu, ad vel deleniti detraxit quaerendum. Pri dico saperet ornatus in, et veniam dolorum dolores pri.
+                    </p>
+                <h2>Irish</h2>
+                    <p>
+                        At has hinc explicari, at his nisl maiestatis efficiendi. Ad prima veniam definitionem eos, labores intellegat percipitur nec in. Liber eloquentiam cu pri. Vel vocent officiis definitiones in. Meliore veritus adipiscing his te, eum erat altera atomorum cu. Sumo minimum sed et.
+                    </p>
+            </li>
 
-        <div class="third column">
-            <h2>Japanese Whiskey</h2>
-                <p></p>
-        </div>
+            <li class="flex">Japanese Whiskey
+                <p class="list-indent">
+                    Atomorum patrioque nec ut, ei augue similique nam. Ex pro quis habeo definitiones, ne accumsan concludaturque sed, eu quas delicata nam. Vivendum constituto dissentiunt sit no. Recteque imperdiet cu mel, ex assum essent antiopam sit. Ridens cetero suavitate te sea. Quem constituto an per, appareat invidunt honestatis et per.
+                </p>
+            </li>
+        </ul>
     </main>
+
+    <footer class="main-footer">
+        <span>&copy;2020 Alex Hack-Irvin</span>
+    </footer>
 
 </body>
 </html>
