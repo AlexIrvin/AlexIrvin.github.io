@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <title>Whiskey Quiz</title>
+</head>
+<body>
+    
+    <header class="main-header">
+        <div class="nav-container">
+            <h1><a href="#" class="logo"><img src="img/stavedLogo.png" alt="Staved Logo"></a></h1>
+                <nav role="navigation">
+                    <ul class="nav-flex-list">
+                        <li class="homeLink nav-flex-item"><a href="index.html">Home</a></li>
+                        <li class="nav-flex-item nav2"><a href="quiz.html">Quiz</a></li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
+    
+    <main class="main-content" role="main">
+        <span id="quiz-header"><h1 class="quiz-description">What Kind of Whiskey Should You Try?</h1></span>
+        <div class="quiz-container">
+            <div id="quiz"></div>
+        </div>
+
+        <div class="button-div">
+        <button id="previous">Previous Question</button>
+        <button id="next">Next Question</button>
+        <button id="submit">Submit Quiz</button>
+        </div>
+
+        <div id="results"></div>
+                
+    </main>
+
+    <footer class="main-footer">
+        <span>&copy;2020 Alex Hack-Irvin</span>
+    </footer>
+    <script type="text/javascript" src="quizscript.js"></script>
+</body>
+</html>
