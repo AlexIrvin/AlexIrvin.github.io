@@ -1,6 +1,8 @@
 
-
+/* Modified from SitePoint.com walkthrough */
 (function(){
+
+    /* Function unaltered - pushes quiz questions and answers to slides with radio buttons */
 function buildQuiz() {
     const output = [];
 
@@ -30,7 +32,7 @@ function buildQuiz() {
     quizContainer.innerHTML = output.join('');
 }
 
-
+/* Personally created variable iterations, switch cases, slide alterations, and array calls */
 function showResults() {
     const answerContainers = quizContainer.querySelectorAll(".answers");
     
@@ -85,6 +87,7 @@ function showResults() {
         "Scotch Whisky: " + final["Scotch"]; + "<br />";
 }
 
+/* Button Appearance Behavior */
 function showSlide(n) {
     slides[currentSlide].classList.remove("active-slide");
     slides[n].classList.add("active-slide");
@@ -118,7 +121,7 @@ const quizContainer = document.getElementById("quiz");
 const resultsContainer = document.getElementById("results");
 const submitButton = document.getElementById("submit");
 
-
+/* Quiz Questions and Answers */
 const myQuestions = [
     
     {
