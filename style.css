@@ -47,6 +47,10 @@ img {
     border: 2px solid wheat;
 }
 
+.introText {
+    line-height: initial;
+}
+
 h3 {
     padding-left: 10px;
 }
