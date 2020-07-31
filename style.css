@@ -9,8 +9,6 @@ body {
     background-image: url(img/whiskeybg.jpg);
     background-position: 50% 75%;  
     background-size: cover;
-
-    }
 }
 
 li {
@@ -23,10 +21,12 @@ ul {
     padding: 0;
 }
 
-.column {
+
+
+.column,
+.banner{
     border: 2px solid wheat;
-    background: rgb(46, 44, 44);
-    opacity: .7;
+    background: rgb(46, 44, 44, .7);
 }
 
 p {
@@ -46,6 +46,10 @@ img {
     margin-left: auto;
     margin-right: auto;
     border: 2px solid wheat;
+}
+
+h3 {
+    padding-left: 10px;
 }
 /* =====================
     Layout Styles
@@ -88,6 +92,10 @@ nav a:hover {
     text-shadow: #5c5a54;
 }
 
+.banner {
+    margin: 25px 0px;
+}
+
  .banner,
  .main-footer {
     text-align: center;
@@ -107,6 +115,50 @@ nav a:hover {
     padding: 1.6em 0;
     margin-top: 60px;
     position: auto;
+}
+
+.quiz-description {
+    background-color: rgb(0,0,0,.7);
+    text-align: center;
+}
+
+.slide {
+position: absolute;
+
+left: 0px;
+top: 0px;
+width: 100%;
+z-index: 1;
+opacity: 0;
+transition: opacity 0.5s;
+}
+
+.active-slide{
+    opacity: 1;
+    z-index: 2;
+    background-color:rgb(0, 0, 0, .7);
+    text-align: center;
+    font-weight: bold;
+}
+
+.quiz-container {
+    position: relative;
+    height: 200px;
+    margin-top: 40px;
+}
+
+.question {
+    padding-bottom: 15px;
+} 
+
+.answers label {
+    display: block;
+    padding: 5px;
+}
+
+#quiz {
+    background: rgba(0, 0, 0, .7);
+    text-align: center;
 }
 /* =====================
     Media Queries
