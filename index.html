@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="normalize.css">
+    <script src="toggle.js">
+        </script>
     <title>Staved</title>
 </head>
 <body>
-    
+
     <header class="main-header">
         <div class="nav-container">
             <h1><a href="#" class="logo"><img src="img/stavedLogo.png" alt="Staved Logo"></a></h1>
@@ -29,7 +31,10 @@
     <main class="main-content" role="main">
 
         <ul class="whiskeys">
-            <li class="column"><h1>American Styles</h1>
+            <li class="column">
+                    <h1>American Styles</h1>
+                    <br/><input onclick="myFunction0()" type="button" value="Minimize" id="myButton0"></input>
+            <div id="hide0">
                 <h2>Rye</h2>
                     <p>
                         Rye whiskey must be at least 51% rye, containing no additives beyond grain and water, aged in new, charred oak containers, and distilled to no more than 160 proof, and entered into the barrel at no more than 125 proof. Rye whiskeys can often be characterized by their spice-forward flavor profiles with secondary notes of mint and floral undertones. Rye whiskey has the distinctive bitter bite of rye bread that carries over through distillation, imparting an almost hot mouthfeel. Coupled with notes of cinnamon, cloves, and caraway, Ryes are a unique class of their own. 
@@ -42,9 +47,12 @@
                     <p>
                         Tennessee whiskey, made in a very similar way to bourbon, undergoes one additional process that separates it. Charcoal filtration is a process that removes flavor impurities from whiskey, which has come to be known as the "Lincoln County Method". This process is reductive, rather than additive to the whiskey, so theoretically Tennessee Whiskey's could be classified as bourbons, but both proponents and their counterparts argue that these products should be identified separately.
                     </p>
+            </div>
             </li>
 
             <li class="column"><h1>European Styles</h1>
+                <br/><input onclick="myFunction1()" type="button" value="Minimize" id="myButton1"></input>
+                <div id="hide1">
                 <h2>Scotch</h2>
                     <p>
                         Scotch whisky, as you can probably imagine, is a distilled spirit produced only in Scotland, per its agreed upon "Standards of Identity." Scotch can be produced with malted barley, grain, or a combination of the two. Scotch must be aged in oak barrels (normally used bourbon barrels) for no less than 3 years, must be distilled to no more than 190 proof, and bottled at no less than 80 proof. Scotch barrels must be no larger than 700 liters (185 US Gallons), and cannot contain any additives other than water and plain caramel coloring.
@@ -64,20 +72,28 @@
                     <p>
                         Similar to Scotch, Irish whiskeys must also be aged a minimum of three years in barrels. New barrels are occasionally used, but oftentimes, used sherry, rum, and bourbon barrels are utilized for aging. Flavor-wise, these whiskeys are often light and fruit-forward, with hints of cereal grains. The bright favor profile for these whiskeys can be attributed to both the higher proof (sometimes bottled as high as 60% ABV), and younger age profile versus popular single malt scotches.
                     </p>
+                </div>
             </li>
 
             <li class="column"><h1>Canadian Whisky</h1>
+                <br/><input onclick="myFunction2()" type="button" value="Minimize" id="myButton2"></input>
+                <div id="hide2">
                 <p>
                     Canadian whisky has an interesting and storied past, owing its rise to fame to the American Prohibition. During the period of 1920-1933, when alcohol could not be purchased for consumption in the United States, Candadian whisky was brought in illegally to be sold secretly by criminal organizations like that of Al Capone's. Due to its hardy nature, rye grains rose in popularity for whisky production very quicky through harsh Canadian winters, leading to the prevalence of rye being the predominant flavoring grain in Canadian whiskies. Required to be produced in Canada, these whiskeys must be aged in "small wood" (barrels) for no less than three years containing no less than 40% alcohol by volume. Interestingly, Canadian whiskies are often distilled at higher proofs, leading to lighter flavor profiles being common, but Canada allows for the use of coloring and flavorings in whiskeys, creating more diversity amongst whisky brands. Popular tasting notes include toffee, cinnamon, and toasted cereal grain notes.
                 </p>
+                </div>
             </li>
 
             <li class="column"><h1>Japanese Whisky</h1>
+                <br/><input onclick="myFunction3()" type="button" value="Minimize" id="myButton3"></input>
+                <div id="hide3">
                 <p>
                     Japanese Whiskies have only come to be within the last century. Masataka Taketsuru, a Japanese businessman traveled to Scotland in 1918, where he toured the country, explored the world of scotches, and took a five day distilling course. Bringing this knowledge back, and partnering with Shinjiro Torii in 1921, Yamazaki whisky was created. Around 100 years later, 7 major distilleries exist, producing a variety of styles that mirror scotch in style, but carrying unique flavor profiles due to differences in geography and production techniques. As a burgeoning whisky style, Japanese whiskies are gaining prevalence around the world and finding market share in the premium to super-premium space in the American market. Uniquely, Japanes whiskies tend to take on a honeysuckle flavor profile, with hints of toffee and oranges. 
                 </p>
+                </div>
             </li>
         </ul>
+
     </main>
 
     <footer class="main-footer">
